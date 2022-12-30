@@ -1,0 +1,11 @@
+footer {
+    border-top: solid 0.0625rem #000;
+    padding: 1.5rem max((100% - 71.25rem)/2, 4rem);
+    text-align: center;
+}
+
+footer span {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}

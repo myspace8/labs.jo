@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  line-height: 1.3;
+  font-size: 0.875rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  word-wrap: break-word;
+}
+
+.main {
+  position: absolute;
+  top: 6.2rem;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+
+@media (max-width: 900px) {
+
+  .main {
+      top: 11.2rem;
+  }
+}
