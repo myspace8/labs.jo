@@ -19,6 +19,44 @@ main {
         justify-content: center;
         border-top: solid 0.0625rem #000;
         padding: 1.5rem max((100% - 71.25rem)/2, 4rem);
+
+        .card {
+            display: grid;
+            grid-template-rows: auto 6.75rem;
+            border: solid 0.0625rem #000;
+            border-radius: 0.25rem;
+            transition: all 0.14s ease-out;
+    
+            &:hover {
+                box-shadow: 0.25rem 0.25rem 0rem #000;
+    
+                p {
+                    text-decoration: underline;
+                }
+            }
+    
+            .media-img {
+                border-bottom: solid 0.0625rem #000;
+                padding: 0.75rem;
+    
+                img {
+                    width: 100%;
+                    height: auto;
+                    object-fit: cover;
+                    border-radius: 0.25rem 0.25rem 0 0;
+                }
+            }
+    
+            .media-desc {
+                padding: 0.75rem;
+    
+    
+                h3 {
+                    font-size: 1.25rem;
+                    margin: 0;
+                }
+            }
+        }
     }
 
 }
