@@ -13,7 +13,7 @@ export default function Projects() {
             <p>{"I fucused on implementing 'timer' as a functionality."}</p>
           </div>
           <div className="links">
-            <a href="/">View Project</a> 
+            <a href="https://quizapp-ruby-pi.vercel.app/">View Project</a> 
             <a href="/">Source Code</a>
           </div>
         </div>
@@ -26,7 +26,7 @@ export default function Projects() {
             <p>{'SpaceX'}</p>
           </div>
           <div className="links">
-            <a href="/">View Project</a>
+            <a href="https://space-x-website-clone.vercel.app/">View Project</a>
             <a href="/">Source Code</a>
           </div>
         </div>
