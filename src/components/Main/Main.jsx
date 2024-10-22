@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { FaArrowRightLong } from "react-icons/fa6";
 
 import './Main.scss'
 
@@ -6,37 +7,14 @@ function Main() {
   return (
       <main>
         <div className='occupation'>
-          <h1>Software Developer and Design Enthusiast</h1>
+          {/* <p>I am 24yo</p> */}
+          <p>I am Nana Acheampong. I've worked with Bismuth Institute of Technology as product manager and instructor where I taught 20+ students how to code. These days, I collaborate with organizations and individual businesses to explore new opportunities in digital technolgy. I'm also building some cool stuff with AI models.</p>
         </div>
 
         <div className="card-container">
-    
-          <Link to='/projects' className='card'>
-              <div className="media-img">
-                  <img src={'images/avatar.JPG'} width={300} height={250} alt="" />
-              </div>
-              <div className="media-desc">
-                  <h3>{'Projects'}</h3>
-                  <p>{'I love to build interesting websites and applications'}</p>
-              </div>
-          </Link>
-          <Link to='/open_source' className='card'>
-              <div className="media-img">
-                  <img src={'images/avatar.JPG'} width={300} height={250} alt="" />
-              </div>
-              <div className="media-desc">
-                  <h3>{'Open source'}</h3>
-                  <p>{'I typically collaborate on mini-projects'}</p>
-              </div>
-          </Link>
-          <Link to='/blog' className='card'>
-              <div className="media-img">
-                  <img src={'images/avatar.JPG'} width={300} height={250} alt="" />
-              </div>
-              <div className="media-desc">
-                  <h3>{'Blog'}</h3>
-                  <p>{'I write, read and research'}</p>
-              </div>
+        <Link to='/projects' className='link'>
+                  <span>{'My projects'}</span>
+                  <FaArrowRightLong />
           </Link>
         </div>
       </main>

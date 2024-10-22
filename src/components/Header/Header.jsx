@@ -5,18 +5,11 @@ import './Header.scss'
 
 function Header() {
   return (
-    <header>
+    <header className='header'>
       <section className='user-identity'>
-        <img className='avatar' src='images/avatar.JPG' width={20} height={20} alt="" />
-        <a href="/">Owoahene <span>Joe</span></a>
-      </section>
-      <section className='subscribe'>
-        <form>
-          <fieldset>
-            <input type="email" aria-label='Your email address' placeholder='example@gmail.com' />
-            <button>Subscribe</button>
-          </fieldset>
-        </form>
+        <a className='user-identity' href="/">
+          <img className='avatar' src='/images/profile.JPEG' width={20} height={20} alt="A profile of Nana Acheampong" />
+        </a>
       </section>
       <section className='socials'>
         <a className='button' href="https://twitter.com/owoahene_joseph" target="_blank" rel='noreferrer'>
